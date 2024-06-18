@@ -1,8 +1,7 @@
 #!/bin/bash
-sudo groupadd estagiarios
-sudo groupadd financeiros
-sudo groupadd gerentes
-sudo groupadd ti
+sudo addgroup estagiarios
+sudo addgroup financeiros
+sudo addgroup gerentes
+sudo addgroup ti
 
 
-sudo chmod -R g+p nome_do_arquivo
