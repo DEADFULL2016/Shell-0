@@ -1,5 +1,12 @@
 #!/bin/bash
 
+excluir=$1;
+
+if [ "$excluir" = "excluir" ]; then
+    rm -rf ./fotos
+    exit
+fi
+
 #Cria a pasta, caso não exista, para armazenar as imagens
 
 if [ ! -d "fotos" ]; then
