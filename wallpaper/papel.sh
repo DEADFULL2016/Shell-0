@@ -5,9 +5,8 @@
 cd /home/anderson_2infor/Documentos/GitHub/Shell-0/wallpaper/fotos || exit
 
 
-foto=$(find . -type f \( -name "*.jpeg" -o -name "*.jpg" -o -name "*.webp" \) | shuf -n 1)
+foto=$(ls *.jpeg *.jpg *.webp | shuf -n1)
 feh --bg-fill "$foto"
-
 gsettings set org.cinnamon.desktop.background picture-uri "file://$foto"
 
 
