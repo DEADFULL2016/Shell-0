@@ -21,5 +21,4 @@ while IFS= read -r linha; do
     fi
 done <imagens.txt
 
-echo "Fotos baixadas com sucesso!"
 
