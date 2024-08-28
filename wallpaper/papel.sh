@@ -2,7 +2,7 @@
 
 #colocar o wallpaper no desktop pegando a imagem que estiver na pasta aleatoriamente
 
-cd pwd /fotos || exit
+cd ./fotos || exit
 
 
 foto=$(ls *.jpeg *.jpg *.webp | shuf -n1)
