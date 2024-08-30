@@ -19,5 +19,6 @@ fi
 bash Pasta_e_download.sh
 bash renomear_carro.sh
 bash papel.sh
+bash papel.sh
 
 echo 'tome'
